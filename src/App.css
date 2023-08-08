@@ -1,0 +1,11 @@
+@keyframes wave-animation {
+    0% {
+      /* CSS properties at 0% of the animation */
+    }
+    50% {
+      /* CSS properties at 50% of the animation */
+    }
+    100% {
+      /* CSS properties at 100% of the animation */
+    }
+  }

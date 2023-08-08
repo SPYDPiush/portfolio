@@ -5,10 +5,9 @@ import {RxCross2} from 'react-icons/rx';
 import {BsSun} from 'react-icons/bs';
 import {MdModeNight} from 'react-icons/md';
 
-export default function Navbar() {
+ const Navbar =({daynight,setDaynight}) => {
   const [showOptions, setShowOptions] = useState(false);
 
-  const [daynight,setDaynight] =useState(true);
 
   const tabclick = () => {
     setShowOptions(!showOptions);
@@ -96,3 +95,5 @@ export default function Navbar() {
     </div>
   )
 }
+
+export default Navbar;
